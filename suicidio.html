@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripition" content="prevençãp ao suicidio">
+    <meta name="author" content="Núbia Reis">
+    <meta name="keywords" content="estilização, cores e video">
+    <meta name="robots" content="index,follow">
+
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/344/grief.png" type="image/x-icon"/>
+ 
+    <title>Prevenção ao suicídio</title>
+</head>
+
+    <link rel="stylesheet" type="text/css" href="suicidio.css">
+</head>
+<body>
+
+  <section class="showcase">
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="/suiciidio.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>10/09</h2> 
+      <h3>Dia Mundial da Prevenção ao Suicídio</h3>
+      <p>Quando uma pessoa pensa em suicídio, ela quer matar a dor e não a vida!
+      </p>
+      <a href="#">Setembro amarelo</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://img.icons8.com/ios-filled/344/suicide-risk.png" height="100px" width="100px"></a></li>
+      <li><a href="#"><img src="https://img.icons8.com/ios-glyphs/344/grim-reaper.png" height="100px" width="100px"></a></li>
+      <li><a href="#"><img src="https://img.icons8.com/sf-ultralight-filled/344/--broken-heart.png" height="100px" width="100px"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+    <img src="https://o.remove.bg/downloads/0628a5ac-37dd-4ae8-aac2-0746c8edfc60/image-removebg-preview.png" height="200" >
+      <li><a href="#">Início</a></li>
+      <li><a href="#">O que é</a></li>
+      <li><a href="#">Sintomas</a></li>
+      <li><a href="#">Causa</a></li>
+      <li><a href="#">Como ajudar</a></li>
+    </ul>
+  </div>
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
+  </body>
+  </html>
+</body>
+</html>
